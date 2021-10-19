@@ -10,9 +10,9 @@ export const light: ButtonTheme = {
     backgroundHover: lightColors.primaryBright,
     border: 0,
     borderColorHover: "currentColor",
-    boxShadow: "inset 0px -1px 0px rgba(14, 14, 44, 0.4)",
+    boxShadow: "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
     boxShadowActive: "inset 0px -1px 0px rgba(14, 14, 44, 0.4)",
-    color: "#FFFFFF",
+    color: "#e42827",
   },
   [SECONDARY]: {
     background: "transparent",
@@ -20,7 +20,7 @@ export const light: ButtonTheme = {
     backgroundHover: "transparent",
     border: `2px solid ${lightColors.primary}`,
     borderColorHover: lightColors.primaryBright,
-    boxShadow: "none",
+    boxShadow: "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
     boxShadowActive: "none",
     color: lightColors.secondary,
   },
@@ -30,37 +30,37 @@ export const light: ButtonTheme = {
     backgroundHover: lightColors.tertiary,
     border: 0,
     borderColorHover: "currentColor",
-    boxShadow: "none",
+    boxShadow: "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
     boxShadowActive: "none",
     color: lightColors.secondary,
   },
   [TEXT]: {
-    background: "transparent",
+    background: "#ffce31 ",
     backgroundActive: "transparent",
-    backgroundHover: lightColors.tertiary,
+    backgroundHover:  "#ffce31", //  lightColors.tertiary,
     border: 0,
     borderColorHover: "currentColor",
-    boxShadow: "none",
+    boxShadow: "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
     boxShadowActive: "none",
-    color: lightColors.secondary,
+    color: "#015914",
   },
   [DANGER]: {
-    background: lightColors.failure,
-    backgroundActive: "#D43285", // darkten 10%
-    backgroundHover: "#FF65B8", // lighten 10%
+    background: "#FFF",
+    backgroundActive: "#e42827", // darkten 10%
+    backgroundHover: "#e42827", // lighten 10%
     border: 0,
     borderColorHover: "currentColor",
-    boxShadow: "none",
+    boxShadow: "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
     boxShadowActive: "none",
-    color: "#FFFFFF",
+    color: "#015914",
   },
   [SUBTLE]: {
-    background: lightColors.textSubtle,
+    background: "#009a2a",
     backgroundActive: `${lightColors.textSubtle}D9`, // 70% opacity
-    backgroundHover: `${lightColors.textSubtle}B3`, // 85% opacity
-    border: 0,
+    backgroundHover:     `${lightColors.textSubtle}B3`, // 85% opacity
+    border: "2px solid #FFF" ,
     borderColorHover: "currentColor",
-    boxShadow: "none",
+    boxShadow: "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
     boxShadowActive: "none",
     color: "#FFFFFF",
   },
@@ -70,7 +70,7 @@ export const light: ButtonTheme = {
     backgroundHover: `${lightColors.success}B3`, // 85% opacity
     border: 0,
     borderColorHover: "currentColor",
-    boxShadow: "none",
+    boxShadow: "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
     boxShadowActive: "none",
     color: "#FFFFFF",
   },

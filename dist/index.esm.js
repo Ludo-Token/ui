@@ -160,18 +160,18 @@ var getButtonVariantProp = function (prop) { return function (_a) {
     var theme = _a.theme, _b = _a.variant, variant = _b === void 0 ? variants.PRIMARY : _b;
     return theme.button[variant][prop];
 }; };
-var StyledButton = styled.button(templateObject_1$2 || (templateObject_1$2 = __makeTemplateObject(["\n  align-items: center;\n  background: ", ";\n  border: ", ";\n  border-radius: ", ";\n  box-shadow: ", ";\n  color: ", ";\n  cursor: pointer;\n  display: inline-flex;\n  font-family: inherit;\n  font-size: 16px;\n  font-weight: 600;\n  /* max-content instead of auto for Safari fix */\n  width: ", ";\n  height: ", ";\n  line-height: 1;\n  letter-spacing: 0.03em;\n  justify-content: center;\n  outline: 0;\n  padding: ", ";\n  transition: background-color 0.2s;\n  opacity: ", ";\n\n  &:hover:not(:disabled):not(.button--disabled):not(:active) {\n    background: ", ";\n    border-color: ", ";\n  }\n\n\n\n\n  \n\n\n  \n    -webkit-transform: perspective(1px) translateZ(0);\n    transform: perspective(1px) translateZ(0);\n    box-shadow: 0 0 1px rgba(0, 0, 0, 0);\n    -webkit-transition-duration: 0.3s;\n    transition-duration: 0.3s;\n    -webkit-transition-property: box-shadow;\n    transition-property: box-shadow;\n  \n  &:hover, &:focus, &:active {\n    box-shadow: 0 0 1.1rem ", ";\n  }\n  \n  \n    transform: translateZ(0);\n    box-shadow: 0 0 1px rgba(0, 0, 0, 0);\n    backface-visibility: hidden;\n    -moz-osx-font-smoothing: grayscale;\n    transition-duration: 0.3s;\n    transition-property: transform;\n\n\n&:hover,\n&:focus,\n&:active {\n    transform: scale(1.1);\n}\n\n\n\n\n\n  \n\n  &:focus:not(:active) {\n    box-shadow: 0 0 0 2px ", ";\n  }\n\n  &:active {\n    background: ", ";\n    box-shadow: ", ";\n  }\n\n  ", "\n  ", "\n  ", "\n"], ["\n  align-items: center;\n  background: ", ";\n  border: ", ";\n  border-radius: ", ";\n  box-shadow: ", ";\n  color: ", ";\n  cursor: pointer;\n  display: inline-flex;\n  font-family: inherit;\n  font-size: 16px;\n  font-weight: 600;\n  /* max-content instead of auto for Safari fix */\n  width: ", ";\n  height: ", ";\n  line-height: 1;\n  letter-spacing: 0.03em;\n  justify-content: center;\n  outline: 0;\n  padding: ", ";\n  transition: background-color 0.2s;\n  opacity: ", ";\n\n  &:hover:not(:disabled):not(.button--disabled):not(:active) {\n    background: ", ";\n    border-color: ", ";\n  }\n\n\n\n\n  \n\n\n  \n    -webkit-transform: perspective(1px) translateZ(0);\n    transform: perspective(1px) translateZ(0);\n    box-shadow: 0 0 1px rgba(0, 0, 0, 0);\n    -webkit-transition-duration: 0.3s;\n    transition-duration: 0.3s;\n    -webkit-transition-property: box-shadow;\n    transition-property: box-shadow;\n  \n  &:hover, &:focus, &:active {\n    box-shadow: 0 0 1.1rem ", ";\n  }\n  \n  \n    transform: translateZ(0);\n    box-shadow: 0 0 1px rgba(0, 0, 0, 0);\n    backface-visibility: hidden;\n    -moz-osx-font-smoothing: grayscale;\n    transition-duration: 0.3s;\n    transition-property: transform;\n\n\n&:hover,\n&:focus,\n&:active {\n    transform: scale(1.1);\n}\n\n\n\n\n\n  \n\n  &:focus:not(:active) {\n    box-shadow: 0 0 0 2px ", ";\n  }\n\n  &:active {\n    background: ", ";\n    box-shadow: ", ";\n  }\n\n  ", "\n  ", "\n  ", "\n"])), getButtonVariantProp("background"), getButtonVariantProp("border"), function (_a) {
+var StyledButton = styled.button(templateObject_1$2 || (templateObject_1$2 = __makeTemplateObject(["\n  align-items: center;\n  background: ", ";\n  border: ", ";\n  border-radius: ", ";\n  color: ", ";\n  cursor: pointer;\n  display: inline-flex;\n  font-family: inherit;\n  font-size: 28px;\n  font-weight: 500;\n  /* max-content instead of auto for Safari fix */\n  width: ", ";\n  height: ", ";\n  line-height: 1;\n  letter-spacing: 0.03em;\n  justify-content: center;\n  outline: 0;\n  padding: ", ";\n  transition: background-color 0.2s;\n  opacity: ", ";\n  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;\n\n  &:hover:not(:disabled):not(.button--disabled):not(:active) {\n    background: ", ";\n    border-color: ", ";\n  }\n\n\n\n\n  \n\n\n  \n    -webkit-transform: perspective(1px) translateZ(0);\n    transform: perspective(1px) translateZ(0);\n    box-shadow: 0 0 1px rgba(0, 0, 0, 0);\n    -webkit-transition-duration: 0.3s;\n    transition-duration: 0.3s;\n    -webkit-transition-property: box-shadow;\n    transition-property: box-shadow;\n  \n  &:hover, &:focus, &:active {\n    box-shadow: 0 0 1.1rem ", ";\n  }\n  \n  \n    transform: translateZ(0);\n    box-shadow: 0 0 1px rgba(0, 0, 0, 0);\n    backface-visibility: hidden;\n    -moz-osx-font-smoothing: grayscale;\n    transition-duration: 0.3s;\n    transition-property: transform;\n\n\n&:hover,\n&:focus,\n&:active {\n    transform: scale(1.1);\n}\n\n\n\n\n\n  \n\n  &:focus:not(:active) {\n    box-shadow: 0 0 0 2px ", ";\n  }\n\n  &:active {\n    background: ", ";\n    box-shadow: ", ";\n  }\n\n  ", "\n  ", "\n  ", "\n"], ["\n  align-items: center;\n  background: ", ";\n  border: ", ";\n  border-radius: ", ";\n  color: ", ";\n  cursor: pointer;\n  display: inline-flex;\n  font-family: inherit;\n  font-size: 28px;\n  font-weight: 500;\n  /* max-content instead of auto for Safari fix */\n  width: ", ";\n  height: ", ";\n  line-height: 1;\n  letter-spacing: 0.03em;\n  justify-content: center;\n  outline: 0;\n  padding: ", ";\n  transition: background-color 0.2s;\n  opacity: ", ";\n  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;\n\n  &:hover:not(:disabled):not(.button--disabled):not(:active) {\n    background: ", ";\n    border-color: ", ";\n  }\n\n\n\n\n  \n\n\n  \n    -webkit-transform: perspective(1px) translateZ(0);\n    transform: perspective(1px) translateZ(0);\n    box-shadow: 0 0 1px rgba(0, 0, 0, 0);\n    -webkit-transition-duration: 0.3s;\n    transition-duration: 0.3s;\n    -webkit-transition-property: box-shadow;\n    transition-property: box-shadow;\n  \n  &:hover, &:focus, &:active {\n    box-shadow: 0 0 1.1rem ", ";\n  }\n  \n  \n    transform: translateZ(0);\n    box-shadow: 0 0 1px rgba(0, 0, 0, 0);\n    backface-visibility: hidden;\n    -moz-osx-font-smoothing: grayscale;\n    transition-duration: 0.3s;\n    transition-property: transform;\n\n\n&:hover,\n&:focus,\n&:active {\n    transform: scale(1.1);\n}\n\n\n\n\n\n  \n\n  &:focus:not(:active) {\n    box-shadow: 0 0 0 2px ", ";\n  }\n\n  &:active {\n    background: ", ";\n    box-shadow: ", ";\n  }\n\n  ", "\n  ", "\n  ", "\n"])), getButtonVariantProp("background"), getButtonVariantProp("border"), function (_a) {
     var size = _a.size;
-    return (size === "sm" ? "16px" : "25px");
-}, getButtonVariantProp("boxShadow"), getButtonVariantProp("color"), function (_a) {
+    return (size === "sm" ? "20px" : "25px");
+}, getButtonVariantProp("color"), function (_a) {
     var fullWidth = _a.fullWidth;
     return (fullWidth ? "100%" : "max-content");
 }, function (_a) {
     var size = _a.size;
-    return (size === "sm" ? "32px" : "52px");
+    return (size === "sm" ? "42px" : "52px");
 }, function (_a) {
     var size = _a.size;
-    return (size === "sm" ? "0 16px" : "0 36px");
+    return (size === "sm" ? "0 16px" : "0 22px");
 }, function (_a) {
     var isLoading = _a.isLoading;
     return (isLoading ? 0.5 : 1);
@@ -628,7 +628,7 @@ var getBackgroundColor = function (_a) {
     var theme = _a.theme, variant = _a.variant;
     return theme.colors[variant === variants.SUBTLE ? "input" : "tertiary"];
 };
-var StyledButtonMenu = styled.div(templateObject_1$7 || (templateObject_1$7 = __makeTemplateObject(["\n  background: ", ";\n  border-radius: 15px;\n  display: inline-flex;\n\n  & > button + button,\n  & > a + a {\n    margin-left: 2px; // To avoid focus shadow overlap\n  }\n"], ["\n  background: ", ";\n  border-radius: 15px;\n  display: inline-flex;\n\n  & > button + button,\n  & > a + a {\n    margin-left: 2px; // To avoid focus shadow overlap\n  }\n"])), getBackgroundColor);
+var StyledButtonMenu = styled.div(templateObject_1$7 || (templateObject_1$7 = __makeTemplateObject(["\n  background: ", ";\n  border-radius: 24px;\n  display: inline-flex;\n\n  & > button + button,\n  & > a + a {\n    margin-left: 2px; // To avoid focus shadow overlap\n  }\n"], ["\n  background: ", ";\n  border-radius: 24px;\n  display: inline-flex;\n\n  & > button + button,\n  & > a + a {\n    margin-left: 2px; // To avoid focus shadow overlap\n  }\n"])), getBackgroundColor);
 var templateObject_1$7;
 
 var ButtonMenu = function (_a) {
@@ -672,7 +672,7 @@ var getBoxShadow = function (_a) {
     }
     return theme.card.boxShadow;
 };
-var StyledCard = styled.div(templateObject_1$9 || (templateObject_1$9 = __makeTemplateObject(["\n  background: ", ";\n  border: ", ";\n  border-radius: 12px;\n  box-shadow: ", ";\n  color: ", ";\n  overflow: hidden;\n  position: relative;\n  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;\n  // box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;\n\n  ", "\n"], ["\n  background: ", ";\n  border: ", ";\n  border-radius: 12px;\n  box-shadow: ", ";\n  color: ", ";\n  overflow: hidden;\n  position: relative;\n  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;\n  // box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;\n\n  ", "\n"])), function (_a) {
+var StyledCard = styled.div(templateObject_1$9 || (templateObject_1$9 = __makeTemplateObject(["\n  background:   transparent ; //", ";\n  border:  2px solid #FFF;  // ", ";\n  border-radius: 2rem;\n  box-shadow: ", ";\n  color: ", ";\n  overflow: hidden;\n  position: relative;\n  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;\n  // box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;\n\n  ", "\n"], ["\n  background:   transparent ; //", ";\n  border:  2px solid #FFF;  // ", ";\n  border-radius: 2rem;\n  box-shadow: ", ";\n  color: ", ";\n  overflow: hidden;\n  position: relative;\n  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;\n  // box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;\n\n  ", "\n"])), function (_a) {
     var theme = _a.theme;
     return theme.card.background;
 }, function (_a) {
@@ -1847,50 +1847,8 @@ var Icon$I = function (props) {
 };
 
 var Icon$J = function (props) {
-    return (React.createElement(Svg, __assign({}, props, { xmlns: "http://www.w3.org/2000/svg", height: "32px", width: "32px", baseProfile: "basic", id: "Layer_1", version: "1.1", viewBox: "0 0 45 35" }),
-        React.createElement("g", null,
-            React.createElement("polygon", { opacity: "0.3", points: "2,28 16,21 40,33 26,40  " }),
-            React.createElement("g", null,
-                React.createElement("path", { d: "M21.5,30.8c-0.7-0.4-1.4-0.4-1.9-0.2l0,0l-1.4,0.7l0,0c-0.5,0.2-0.9,0.8-0.9,1.6c0,1.5,1.3,3.4,2.8,4.2    c0.8,0.4,1.5,0.4,2,0.2c0,0,1.4-0.7,1.5-0.8c0.5-0.3,0.7-0.8,0.7-1.5C24.3,33.4,23,31.5,21.5,30.8z", fill: "#2D3134" }),
-                React.createElement("path", { d: "M22,37.2c0.2-0.1,1.4-0.7,1.5-0.7c0.5-0.3,0.7-0.8,0.7-1.5c0-0.6-0.2-1.3-0.5-1.9l-1.4,0.7    c0.3,0.6,0.5,1.3,0.5,1.9C22.9,36.4,22.5,37,22,37.2z", opacity: "0.39" }),
-                React.createElement("path", { d: "M22.1,35.3c0,1.2-0.9,1.6-2.1,1c-1.2-0.6-2.1-2-2.1-3.2s0.9-1.6,2.1-1C21.2,32.7,22.1,34.1,22.1,35.3z", fill: "#999999" }),
-                React.createElement("path", { d: "M20.2,36.3c-1.2-0.6-2.1-2-2.1-3.2c0-0.6,0.2-1,0.6-1.2c-0.5,0.1-0.8,0.6-0.8,1.2c0,1.2,0.9,2.6,2.1,3.2    c0.6,0.3,1.1,0.3,1.5,0.1C21.2,36.6,20.7,36.5,20.2,36.3z", fill: "#808285" }),
-                React.createElement("path", { d: "M21.1,34.6c0,0.5-0.4,0.7-0.9,0.4s-0.9-0.8-0.9-1.3c0-0.5,0.4-0.7,0.9-0.4S21.1,34.1,21.1,34.6z", fill: "#2D3134" }),
-                React.createElement("path", { d: "M21.1,34.6c0,0.5-0.4,0.7-0.9,0.4s-0.9-0.8-0.9-1.3c0-0.5,0.4-0.7,0.9-0.4S21.1,34.1,21.1,34.6z", opacity: "0.39" }),
-                React.createElement("path", { d: "M20.9,34.7c0,0.5-0.4,0.7-0.9,0.4c-0.5-0.2-0.9-0.8-0.9-1.3s0.4-0.7,0.9-0.4    C20.5,33.6,20.9,34.2,20.9,34.7z", fill: "#2D3134" }),
-                React.createElement("path", { d: "M22.9,35.7c0,1.5-1.3,2.2-2.8,1.4c-1.5-0.8-2.8-2.7-2.8-4.2c0-1.5,1.3-2.2,2.8-1.4    C21.6,32.2,22.9,34.1,22.9,35.7z", opacity: "0.06" })),
-            React.createElement("polygon", { fill: "#2D3134", points: "22.5,32.9 22.5,36.7 25,35.4 25,31.7  " }),
-            React.createElement("polygon", { opacity: "0.06", points: "22.5,32.9 22.5,36.7 25,35.4 25,31.7  " }),
-            React.createElement("g", null,
-                React.createElement("path", { d: "M7.4,23.8c-0.7-0.4-1.4-0.4-1.9-0.2l0,0l-1.4,0.7l0,0c-0.5,0.2-0.9,0.8-0.9,1.6c0,1.5,1.3,3.4,2.8,4.2    c0.8,0.4,1.5,0.4,2,0.2c0,0,1.4-0.7,1.5-0.8c0.5-0.3,0.7-0.8,0.7-1.5C10.3,26.4,9,24.5,7.4,23.8z", fill: "#2D3134" }),
-                React.createElement("path", { d: "M8,30.2c0.2-0.1,1.4-0.7,1.5-0.7c0.5-0.3,0.7-0.8,0.7-1.5c0-0.6-0.2-1.3-0.5-1.9l-1.4,0.7    c0.3,0.6,0.5,1.3,0.5,1.9C8.9,29.4,8.5,30,8,30.2z", opacity: "0.39" }),
-                React.createElement("path", { d: "M8.1,28.3c0,1.2-0.9,1.6-2.1,1S4,27.4,4,26.2s0.9-1.6,2.1-1C7.2,25.7,8.1,27.1,8.1,28.3z", fill: "#999999" }),
-                React.createElement("path", { d: "M6.2,29.3c-1.2-0.6-2.1-2-2.1-3.2c0-0.6,0.2-1,0.6-1.2C4.3,25.1,4,25.5,4,26.2c0,1.2,0.9,2.6,2.1,3.2    c0.6,0.3,1.1,0.3,1.5,0.1C7.2,29.6,6.7,29.5,6.2,29.3z", fill: "#808285" }),
-                React.createElement("path", { d: "M7.1,27.6c0,0.5-0.4,0.7-0.9,0.4s-0.9-0.8-0.9-1.3s0.4-0.7,0.9-0.4S7.1,27.1,7.1,27.6z", fill: "#2D3134" }),
-                React.createElement("path", { d: "M7.1,27.6c0,0.5-0.4,0.7-0.9,0.4s-0.9-0.8-0.9-1.3s0.4-0.7,0.9-0.4S7.1,27.1,7.1,27.6z", opacity: "0.39" }),
-                React.createElement("path", { d: "M6.9,27.7c0,0.5-0.4,0.7-0.9,0.4s-0.9-0.8-0.9-1.3c0-0.5,0.4-0.7,0.9-0.4S6.9,27.2,6.9,27.7z", fill: "#2D3134" }),
-                React.createElement("path", { d: "M8.9,28.7c0,1.5-1.3,2.2-2.8,1.4c-1.5-0.8-2.8-2.7-2.8-4.2c0-1.5,1.3-2.2,2.8-1.4    C7.6,25.2,8.9,27.1,8.9,28.7z", opacity: "0.06" })),
-            React.createElement("polygon", { fill: "#2D3134", points: "8.5,25.9 8.5,29.7 11,28.4 11,24.7  " }),
-            React.createElement("polygon", { opacity: "0.06", points: "8.5,25.9 8.5,29.7 11,28.4 11,24.7  " }),
-            React.createElement("polygon", { fill: "#2D3134", points: "40,26 40,28 26,35 26,33  " }),
-            React.createElement("polygon", { fill: "#2D3134", points: "2,21 2,23 26,35 26,33  " }),
-            React.createElement("g", null,
-                React.createElement("polygon", { fill: "#28896D", points: "16,6 2,13 2,21 26,33 40,26 40,18   " }),
-                React.createElement("polygon", { opacity: "0.06", points: "30,22 16,15 16,7 38,18   " }),
-                React.createElement("polygon", { opacity: "0.39", points: "12,17 16,15 16,7 4,13   " }),
-                React.createElement("polygon", { opacity: "0.06", points: "26,35 2,23 2,13 26,25   " }),
-                React.createElement("polygon", { opacity: "0.39", points: "40,18 26,25 26,35 40,28   " }),
-                React.createElement("path", { d: "M16,6L2,13l24,12l14-7L16,6z M26,24L4,13l12-6l22,11L26,24z", fill: "#28896D" }),
-                React.createElement("polygon", { fill: "#FFFFFF", opacity: "0.1", points: "12,17 26,24 30,22 16,15   " })),
-            React.createElement("path", { d: "M36,28l-6,3v1l14,5l2-1v-1L36,28z M33.2,31.4L36,30l5.6,4.2L33.2,31.4z", fill: "#28896D" }),
-            React.createElement("polygon", { fill: "#28896D", points: "36,30 44,36 44,35 36,29 32,31 32,32  " }),
-            React.createElement("polygon", { opacity: "0.06", points: "30,31 30,32 44,37 44,36  " }),
-            React.createElement("polygon", { opacity: "0.39", points: "44,37 46,36 46,35 44,36  " }),
-            React.createElement("polygon", { opacity: "0.06", points: "36,30 41.6,34.2 44,35 36,29  " }),
-            React.createElement("polygon", { opacity: "0.39", points: "32,31 33.2,31.4 36,30 36,29  " })),
-        React.createElement("g", null,
-            React.createElement("path", { d: "M20,7c-6,0-11.1,3.4-13.9,7L26,24l10-5C36,14.6,28.8,7,20,7z", fill: "#FFCC00" }),
-            React.createElement("path", { d: "M28.8,18.6L28.8,18.6c2.6-1.3,3.7-4,3.4-6.4C29.3,9.3,24.9,7,20,7c-3.7,0-7.1,1.3-9.8,3.2   c0.5,1.4,1.5,2.6,3,3.4l10,5C25,19.5,27,19.5,28.8,18.6z", fill: "#FFFFFF", opacity: "0.2" }))));
+    return (React.createElement(Svg, __assign({ viewBox: "0 0 26 26" }, props),
+        React.createElement("image", { width: "26", height: "26", href: '/images/C.png' })));
 };
 
 var Icon$K = function (props) {
@@ -1899,13 +1857,18 @@ var Icon$K = function (props) {
 };
 
 var Icon$L = function (props) {
-    return (React.createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
-        React.createElement("path", { d: "M4 18H20C20.55 18 21 17.55 21 17C21 16.45 20.55 16 20 16H4C3.45 16 3 16.45 3 17C3 17.55 3.45 18 4 18ZM4 13H20C20.55 13 21 12.55 21 12C21 11.45 20.55 11 20 11H4C3.45 11 3 11.45 3 12C3 12.55 3.45 13 4 13ZM3 7C3 7.55 3.45 8 4 8H20C20.55 8 21 7.55 21 7C21 6.45 20.55 6 20 6H4C3.45 6 3 6.45 3 7Z" })));
+    return (React.createElement(Svg, __assign({ xmlns: "http://www.w3.org/2000/svg" }, props, { "data-name": "Layer 1", id: "Layer_1", viewBox: "0 0 52 52" }),
+        React.createElement("path", { d: "M50,12.5H2a2,2,0,0,1,0-4H50a2,2,0,0,1,0,4Z" }),
+        React.createElement("path", { d: "M50,28H2a2,2,0,0,1,0-4H50a2,2,0,0,1,0,4Z" }),
+        React.createElement("path", { d: "M50,43.5H2a2,2,0,0,1,0-4H50a2,2,0,0,1,0,4Z" })));
 };
 
 var Icon$M = function (props) {
-    return (React.createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
-        React.createElement("path", { d: "M4 18H15C15.55 18 16 17.55 16 17C16 16.45 15.55 16 15 16H4C3.45 16 3 16.45 3 17C3 17.55 3.45 18 4 18ZM4 13H12C12.55 13 13 12.55 13 12C13 11.45 12.55 11 12 11H4C3.45 11 3 11.45 3 12C3 12.55 3.45 13 4 13ZM3 7C3 7.55 3.45 8 4 8H15C15.55 8 16 7.55 16 7C16 6.45 15.55 6 15 6H4C3.45 6 3 6.45 3 7ZM20.3 14.88L17.42 12L20.3 9.12C20.69 8.73 20.69 8.1 20.3 7.71C19.91 7.32 19.28 7.32 18.89 7.71L15.3 11.3C14.91 11.69 14.91 12.32 15.3 12.71L18.89 16.3C19.28 16.69 19.91 16.69 20.3 16.3C20.68 15.91 20.69 15.27 20.3 14.88Z" })));
+    return (React.createElement(Svg, __assign({}, props, { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 83.7 83.63" }),
+        React.createElement("title", null),
+        React.createElement("g", { "data-name": "Layer 2", id: "Layer_2" },
+            React.createElement("g", { "data-name": "Layer 1", id: "Layer_1-2" },
+                React.createElement("path", { d: "M50.24,41.82,82.76,9.3a3.19,3.19,0,0,0,0-4.52L78.89.91a3.27,3.27,0,0,0-4.52,0L41.85,33.43,9.33.91A3.27,3.27,0,0,0,4.81.9L.93,4.77a3.2,3.2,0,0,0,0,4.52L33.46,41.82.94,74.34a3.19,3.19,0,0,0,0,4.52l3.87,3.87a3.27,3.27,0,0,0,4.52,0L41.85,50.21,74.37,82.73a3.27,3.27,0,0,0,4.52,0l3.87-3.87a3.2,3.2,0,0,0,0-4.52Z" })))));
 };
 
 var Icon$N = function (props) {
@@ -1914,11 +1877,8 @@ var Icon$N = function (props) {
 };
 
 var Icon$O = function (props) {
-    return (React.createElement(Svg, __assign({}, props, { xmlns: "http://www.w3.org/2000/svg", "data-name": "Layer 1", height: "32", id: "Layer_1", viewBox: "0 0 32 32", width: "32" }),
-        React.createElement("path", { d: "M14.1947,3.7572a2.5909,2.5909,0,0,1,3.6694.0086l10.333,10.401a2.6022,2.6022,0,0,1,.7563,1.8226L28.98,21.98,29,26.3888A2.5983,2.5983,0,0,1,26.405,29H24V17L16,9,12.4734,5.4735Z", fill: "#4285f4" }),
-        React.createElement("path", { d: "M14.1161,3.7658,3.7831,14.1668a2.6022,2.6022,0,0,0-.7563,1.8226L3,21.98,7.98,17l8-8,3.5266-3.5265L17.7855,3.7572A2.5909,2.5909,0,0,0,14.1161,3.7658Z", fill: "#ea4435" }),
-        React.createElement("path", { d: "M8,24V17L3.02,21.98,3,26.3888A2.5983,2.5983,0,0,0,5.595,29H8Z", fill: "#fbc02d" }),
-        React.createElement("rect", { fill: "#00ac47", height: "5", width: "16", x: "8", y: "24" })));
+    return (React.createElement(Svg, __assign({ viewBox: "0 0 26 26" }, props),
+        React.createElement("image", { width: "26", height: "26", href: '/images/H.png' })));
 };
 
 var Icon$P = function (props) {
@@ -1957,7 +1917,7 @@ var Icon$T = function (props) {
 var Logo = function (_a) {
     var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
     return (React.createElement(Svg, __assign({ viewBox: "0 0 26 26" }, props),
-        React.createElement("image", { width: "26", height: "26", href: isDark ? '/images/textlogo.png' : '/images/textlogo.png' })));
+        React.createElement("image", { width: "26", height: "26", href: isDark ? '/images/ll.png' : '/images/ll.png' })));
 };
 
 var Logo$1 = function (_a) {
@@ -2006,9 +1966,8 @@ var Icon$Z = function (props) {
 };
 
 var Icon$_ = function (props) {
-    return (React.createElement(Svg, __assign({ xmlns: "http://www.w3.org/2000/svg" }, props, { height: "32px", width: "32px", "enable-background": "new 0 0 50 50", id: "Layer_1", version: "1.1", viewBox: "0 0 50 50" }),
-        React.createElement("path", { d: "M33,35c4,0,7-3,7-7s-2.8-7-7-7c-0.2,0,0,0-1,0c-0.7-3.4-3-6-8-6c-4.2,0-7,3-7,6v1  c0,0-7,0-7,6c0,4.1,2,7,6,7C16,35,32.9,35,33,35z", fill: "#1F86CC", id: "Cloud__x2601_" }),
-        React.createElement("path", { d: "M25,1C11.7,1,1,11.7,1,25s10.7,24,24,24s24-10.7,24-24S38.3,1,25,1z M25,44C14.5,44,6,35.5,6,25S14.5,6,25,6  s19,8.5,19,19S35.5,44,25,44z", fill: "#1F86CC" })));
+    return (React.createElement(Svg, __assign({ viewBox: "0 0 26 26" }, props),
+        React.createElement("image", { width: "26", height: "26", href: '/images/D.png' })));
 };
 
 var Icon$$ = function (props) {
@@ -2096,15 +2055,8 @@ var Icon$19 = function (props) {
 };
 
 var Icon$1a = function (props) {
-    return (React.createElement(Svg, __assign({ viewBox: "0 0 502.436 502.436" }, props),
-        React.createElement("g", null,
-            React.createElement("path", { d: "M402.481,300.41c0.033-0.051,0.068-0.098,0.102-0.148C402.86,299.793,402.459,300.432,402.481,300.41z" }),
-            React.createElement("path", { d: "M402.581,199.504c-0.029-0.055-0.062-0.105-0.094-0.16c0.064,0.113,0.143,0.254,0.201,0.359\n\t\t\tC402.651,199.637,402.616,199.571,402.581,199.504z" }),
-            React.createElement("path", { d: "M406.079,55.139C406.471,54.674,405.678,55.6,406.079,55.139L406.079,55.139z" }),
-            React.createElement("g", null,
-                React.createElement("path", { d: "M292.844,383.368C293.102,383.25,293.04,383.279,292.844,383.368L292.844,383.368z" }),
-                React.createElement("path", { d: "M465.85,19.072c-1.174-2.404-2.348-4.809-3.521-7.215c-3.99,2.063-7.865,4.352-11.678,6.723\n\t\t\t\tc-2.168,1.35-4.312,2.74-6.438,4.156l-2.803,1.896c-0.859-1.303-1.721-2.605-2.578-3.91l2.768-1.709\n\t\t\t\tc2.293-1.393,4.604-2.76,6.939-4.078c3.986-2.254,8.037-4.42,12.189-6.348c-0.797-1.635-1.596-3.27-2.395-4.904\n\t\t\t\tc-0.473-0.971-0.945-1.939-1.42-2.908c-0.367-0.752-0.23-0.936-1.041-0.643c-7.271,2.625-14.391,5.65-21.355,8.998\n\t\t\t\tc-16.805,8.078-33.145,17.945-47.258,30.191c-14.646,12.707-27.654,27.381-36.574,44.721\n\t\t\t\tc-8.943,17.389-13.643,36.518-13.912,56.063c-0.133,9.852,1.146,19.521,2.941,29.184c1.818,9.791,5.121,19.123,8.516,28.455\n\t\t\t\tc2.318,6.732,5.961,12.953,8.506,19.604c1.656,4.328,2.861,8.682,3.896,13.186c0.953,4.148,1.133,8.771,0.643,12.994\n\t\t\t\tc-0.48,4.143-1.887,7.734-3.979,11.306c-2.197,3.748-5.549,6.987-8.752,9.877c-3.389,3.059-7.027,5.823-10.812,8.371\n\t\t\t\tc-16.141,10.856-34.52,18.27-52.9,24.368c-0.593,0.197-1.188,0.379-1.781,0.572l-37.776,77.905\n\t\t\t\tc0.518-0.172,1.038-0.334,1.556-0.508c9.101-3.029,18.152-6.215,27.103-9.67c3.841-1.482,7.658-3.014,11.472-4.568\n\t\t\t\tc0.313-0.129,1.05-0.448,1.05-0.448s0.495,1.215,0.717,1.715c1.938,4.396,3.873,8.787,5.812,13.183\n\t\t\t\tc0.8,1.813,1.601,3.629,2.399,5.44c0.138,0.313,0.274,0.629,0.414,0.94c0.006,0.017-2.73,1.261-3.295,1.517\n\t\t\t\tc0.129-0.06,0.25-0.114,0.346-0.159c-0.1,0.047-0.235,0.108-0.444,0.204c-15.015,6.884-30.364,13.048-45.89,18.673\n\t\t\t\tc-5.586,2.023-11.205,3.959-16.837,5.852l-45.024,92.852c6.834-2.465,13.628-5.039,20.391-7.648\n\t\t\t\tc18.019-6.959,35.824-14.482,53.357-22.588c35.633-16.473,70.357-35.328,102.297-58.234\n\t\t\t\tc30.525-22.016,59.324-48.219,78.301-81.114c9.527-16.517,16.473-34.782,19.074-53.728c2.66-19.358,0.836-39.19-5.188-57.772\n\t\t\t\tc-3.971-12.25-9.643-24.102-16.756-34.852c-3.158-4.773-6.484-9.369-9.947-13.92c-1.967-2.58-4.131-5.012-6.264-7.455\n\t\t\t\tc-3.205-3.674-5.84-7.859-8.459-11.953c-4.441-6.939-7.707-14.865-9.32-22.945c-1.992-9.973-1.287-19.959,1.338-29.74\n\t\t\t\tc5.035-18.758,16.883-35.439,29.934-49.518c8.021-8.656,16.82-16.625,26.174-23.818c1.865-1.436,3.756-2.84,5.676-4.199\n\t\t\t\tC466.758,20.401,466.6,20.608,465.85,19.072z M403.092,299.358c0,0-0.201,0.381-0.51,0.903c-0.072,0.109-0.096,0.144-0.102,0.148\n\t\t\t\tc-8.385,12.725-18.254,23.93-29.76,33.943c-10.844,9.438-22.645,17.574-34.791,25.221c-3.59-6.113-7.18-12.229-10.77-18.344\n\t\t\t\tc15.223-8.717,30.031-18.301,42.879-30.336c6.33-5.932,11.947-12.385,17.027-19.408l1.197-1.566L403.092,299.358\n\t\t\t\t M402.489,199.344c-0.121-0.217-0.18-0.324,0.094,0.16c0.254,0.459,0.215,0.391,0.105,0.199\n\t\t\t\tc8.68,15.752,14.639,33.172,14.564,51.32c-5.246-0.1-10.494-0.201-15.74-0.301c0.66-13.469-2.85-26.854-8.238-39.109\n\t\t\t\tc-2.982-6.785-6.766-13.166-10.443-19.588c-3.178-5.543-5.941-11.195-8.627-16.988c2.039-0.92,4.078-1.84,6.117-2.758\n\t\t\t\tc1.311-0.59,4.99-2.266,4.99-2.266l0.332,0.695c2.414,4.66,4.896,9.178,7.66,13.639\n\t\t\t\tC396.393,189.333,399.608,194.237,402.489,199.344z M406.079,55.139c-9.127,10.514-17.299,21.643-23.01,34.42\n\t\t\t\tc-5.342,11.959-8.377,24.941-8.166,38.061c-3.402-0.049-6.807-0.098-10.211-0.146c0.506-17.471,6.057-34.4,14.984-49.367\n\t\t\t\tc4.535-7.607,9.904-14.607,15.695-21.293c1.395-1.611,2.891-3.137,4.355-4.684c0.527-0.555,2.143-2.352,2.143-2.352\n\t\t\t\ts3.311,3.207,4.785,4.619c0.02,0.018,0.035,0.035,0.055,0.053C406.489,54.67,406.28,54.901,406.079,55.139z" })),
-            React.createElement("path", { d: "M291.195,210.11c0-70.35-57.233-127.584-127.583-127.584C93.263,82.526,36.03,139.76,36.03,210.11\n\t\t\tc0,20.615,4.921,40.1,13.64,57.353l113.942,234.973l113.96-235.01C286.28,250.182,291.195,230.709,291.195,210.11z\n\t\t\t M163.612,280.711c-38.931,0-70.604-31.671-70.604-70.602c0-38.932,31.674-70.605,70.604-70.605s70.604,31.674,70.604,70.605\n\t\t\tC234.215,249.04,202.542,280.711,163.612,280.711z" }))));
+    return (React.createElement(Svg, __assign({ viewBox: "0 0 26 26" }, props),
+        React.createElement("image", { width: "26", height: "26", href: '/images/M.png' })));
 };
 
 var Icon$1b = function (props) {
@@ -2193,7 +2145,7 @@ var IconModule = /*#__PURE__*/Object.freeze({
     EggHouseIcon: Icon$1d
 });
 
-var MenuButton = styled(Button)(templateObject_1$x || (templateObject_1$x = __makeTemplateObject(["\n  color: ", ";\n  padding: 0 8px;\n  border-radius: 8px;\n  margin-top: 0.65rem;\n  ", "{\n    margin-top: 1.4rem;\n  }\n"], ["\n  color: ", ";\n  padding: 0 8px;\n  border-radius: 8px;\n  margin-top: 0.65rem;\n  ", "{\n    margin-top: 1.4rem;\n  }\n"])), function (_a) {
+var MenuButton = styled.div(templateObject_1$x || (templateObject_1$x = __makeTemplateObject(["\n  color: ", ";\n  padding: 0 8px;\n  border-radius: 8px;\n  margin-top: 0.65rem;\n  cursor: pointer;\n  font-size: 2rem;\n  ", "{\n    margin-top: 1.6rem;\n  }\n"], ["\n  color: ", ";\n  padding: 0 8px;\n  border-radius: 8px;\n  margin-top: 0.65rem;\n  cursor: pointer;\n  font-size: 2rem;\n  ", "{\n    margin-top: 1.6rem;\n  }\n"])), function (_a) {
     var theme = _a.theme;
     return theme.colors.text;
 }, function (_a) {
@@ -2201,12 +2153,12 @@ var MenuButton = styled(Button)(templateObject_1$x || (templateObject_1$x = __ma
     return theme.mediaQueries.sm;
 });
 MenuButton.defaultProps = {
-    variant: "text",
-    size: "sm",
+// variant: "text",
+// size: "sm",
 };
 var templateObject_1$x;
 
-var StyledLink$1 = styled(Link$1)(templateObject_1$y || (templateObject_1$y = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 52px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 82px;\n    display: none;\n    ", " {\n      display: block;\n      \n\n      @-webkit-keyframes hvr-buzz {\n        50% {\n          -webkit-transform: translateX(3px) rotate(2deg);\n          transform: translateX(3px) rotate(2deg);\n        }\n        100% {\n          -webkit-transform: translateX(-3px) rotate(-2deg);\n          transform: translateX(-3px) rotate(-2deg);\n        }\n      }\n      @keyframes hvr-buzz {\n        50% {\n          -webkit-transform: translateX(3px) rotate(2deg);\n          transform: translateX(3px) rotate(2deg);\n        }\n        100% {\n          -webkit-transform: translateX(-3px) rotate(-2deg);\n          transform: translateX(-3px) rotate(-2deg);\n        }\n      }\n      \n        -webkit-transform: perspective(1px) translateZ(0);\n        transform: perspective(1px) translateZ(0);\n        box-shadow: 0 0 1px rgba(0, 0, 0, 0);\n    \n        &:hover, &:focus, &:active {\n        -webkit-animation-name: hvr-buzz;\n        animation-name: hvr-buzz;\n        -webkit-animation-duration: 0.15s;\n        animation-duration: 0.15s;\n        -webkit-animation-timing-function: linear;\n        animation-timing-function: linear;\n        -webkit-animation-iteration-count: infinite;\n        animation-iteration-count: infinite;\n      }\n\n\n\n      \n        -webkit-transform: perspective(1px) translateZ(0);\n        transform: perspective(1px) translateZ(0);\n        // box-shadow: 0 0 1px blue;\n        -webkit-transition-duration: 0.3s;\n        transition-duration: 0.3s;\n        -webkit-transition-property: box-shadow;\n        transition-property: box-shadow;\n    \n      &:hover, &:focus, &:active {\n        box-shadow: 0 0 2rem ", ";\n      }\n\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 52px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 82px;\n    display: none;\n    ", " {\n      display: block;\n      \n\n      @-webkit-keyframes hvr-buzz {\n        50% {\n          -webkit-transform: translateX(3px) rotate(2deg);\n          transform: translateX(3px) rotate(2deg);\n        }\n        100% {\n          -webkit-transform: translateX(-3px) rotate(-2deg);\n          transform: translateX(-3px) rotate(-2deg);\n        }\n      }\n      @keyframes hvr-buzz {\n        50% {\n          -webkit-transform: translateX(3px) rotate(2deg);\n          transform: translateX(3px) rotate(2deg);\n        }\n        100% {\n          -webkit-transform: translateX(-3px) rotate(-2deg);\n          transform: translateX(-3px) rotate(-2deg);\n        }\n      }\n      \n        -webkit-transform: perspective(1px) translateZ(0);\n        transform: perspective(1px) translateZ(0);\n        box-shadow: 0 0 1px rgba(0, 0, 0, 0);\n    \n        &:hover, &:focus, &:active {\n        -webkit-animation-name: hvr-buzz;\n        animation-name: hvr-buzz;\n        -webkit-animation-duration: 0.15s;\n        animation-duration: 0.15s;\n        -webkit-animation-timing-function: linear;\n        animation-timing-function: linear;\n        -webkit-animation-iteration-count: infinite;\n        animation-iteration-count: infinite;\n      }\n\n\n\n      \n        -webkit-transform: perspective(1px) translateZ(0);\n        transform: perspective(1px) translateZ(0);\n        // box-shadow: 0 0 1px blue;\n        -webkit-transition-duration: 0.3s;\n        transition-duration: 0.3s;\n        -webkit-transition-property: box-shadow;\n        transition-property: box-shadow;\n    \n      &:hover, &:focus, &:active {\n        box-shadow: 0 0 2rem ", ";\n      }\n\n    }\n  }\n"])), function (_a) {
+var StyledLink$1 = styled(Link$1)(templateObject_1$y || (templateObject_1$y = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  margin-left: 2rem;\n  .mobile-icon {\n    width: 52px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 82px;\n    display: none;\n    ", " {\n      display: block;\n      \n\n      @-webkit-keyframes hvr-buzz {\n        50% {\n          -webkit-transform: translateX(3px) rotate(2deg);\n          transform: translateX(3px) rotate(2deg);\n        }\n        100% {\n          -webkit-transform: translateX(-3px) rotate(-2deg);\n          transform: translateX(-3px) rotate(-2deg);\n        }\n      }\n      @keyframes hvr-buzz {\n        50% {\n          -webkit-transform: translateX(3px) rotate(2deg);\n          transform: translateX(3px) rotate(2deg);\n        }\n        100% {\n          -webkit-transform: translateX(-3px) rotate(-2deg);\n          transform: translateX(-3px) rotate(-2deg);\n        }\n      }\n      \n        -webkit-transform: perspective(1px) translateZ(0);\n        transform: perspective(1px) translateZ(0);\n        box-shadow: 0 0 1px rgba(0, 0, 0, 0);\n    \n        &:hover, &:focus, &:active {\n        -webkit-animation-name: hvr-buzz;\n        animation-name: hvr-buzz;\n        -webkit-animation-duration: 0.15s;\n        animation-duration: 0.15s;\n        -webkit-animation-timing-function: linear;\n        animation-timing-function: linear;\n        -webkit-animation-iteration-count: infinite;\n        animation-iteration-count: infinite;\n      }\n\n\n\n      \n        -webkit-transform: perspective(1px) translateZ(0);\n        transform: perspective(1px) translateZ(0);\n        // box-shadow: 0 0 1px blue;\n        -webkit-transition-duration: 0.3s;\n        transition-duration: 0.3s;\n        -webkit-transition-property: box-shadow;\n        transition-property: box-shadow;\n    \n      // &:hover, &:focus, &:active {\n      //   box-shadow: 0 0 2rem ", ";\n      // }\n\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  margin-left: 2rem;\n  .mobile-icon {\n    width: 52px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 82px;\n    display: none;\n    ", " {\n      display: block;\n      \n\n      @-webkit-keyframes hvr-buzz {\n        50% {\n          -webkit-transform: translateX(3px) rotate(2deg);\n          transform: translateX(3px) rotate(2deg);\n        }\n        100% {\n          -webkit-transform: translateX(-3px) rotate(-2deg);\n          transform: translateX(-3px) rotate(-2deg);\n        }\n      }\n      @keyframes hvr-buzz {\n        50% {\n          -webkit-transform: translateX(3px) rotate(2deg);\n          transform: translateX(3px) rotate(2deg);\n        }\n        100% {\n          -webkit-transform: translateX(-3px) rotate(-2deg);\n          transform: translateX(-3px) rotate(-2deg);\n        }\n      }\n      \n        -webkit-transform: perspective(1px) translateZ(0);\n        transform: perspective(1px) translateZ(0);\n        box-shadow: 0 0 1px rgba(0, 0, 0, 0);\n    \n        &:hover, &:focus, &:active {\n        -webkit-animation-name: hvr-buzz;\n        animation-name: hvr-buzz;\n        -webkit-animation-duration: 0.15s;\n        animation-duration: 0.15s;\n        -webkit-animation-timing-function: linear;\n        animation-timing-function: linear;\n        -webkit-animation-iteration-count: infinite;\n        animation-iteration-count: infinite;\n      }\n\n\n\n      \n        -webkit-transform: perspective(1px) translateZ(0);\n        transform: perspective(1px) translateZ(0);\n        // box-shadow: 0 0 1px blue;\n        -webkit-transition-duration: 0.3s;\n        transition-duration: 0.3s;\n        -webkit-transition-property: box-shadow;\n        transition-property: box-shadow;\n    \n      // &:hover, &:focus, &:active {\n      //   box-shadow: 0 0 2rem ", ";\n      // }\n\n    }\n  }\n"])), function (_a) {
     var theme = _a.theme;
     return theme.mediaQueries.nav;
 }, function (_a) {
@@ -2223,7 +2175,7 @@ var Logo$2 = function (_a) {
         React.createElement(Icon$q, { className: "mobile-icon" }),
         React.createElement(Logo, { className: "desktop-icon", isDark: isDark })));
     return (React.createElement(Flex, null,
-        React.createElement(MenuButton, { "aria-label": "Toggle menu", onClick: togglePush, mr: "24px" }, isPushed ? (React.createElement(Icon$M, { width: "24px", color: "textSubtle" })) : (React.createElement(Icon$L, { width: "24px", color: "textSubtle" }))),
+        React.createElement(MenuButton, { "aria-label": "Toggle menu", onClick: togglePush }, isPushed ? (React.createElement(Icon$M, { width: "24px", color: "textSubtle" })) : (React.createElement(Icon$L, { width: "24px", color: "textSubtle" }))),
         isAbsoluteUrl ? (React.createElement(StyledLink$1, { as: "a", href: href, "aria-label": "Pancake home page" }, innerLogo)) : (React.createElement(StyledLink$1, { to: href, "aria-label": "Pancake home page" }, innerLogo))));
 };
 var templateObject_1$y;
@@ -2343,11 +2295,11 @@ var links = [
     },
 ];
 var socials = [
-    // {
-    //   label: "Twitter",
-    //   icon: "TwitterIcon",
-    //   href:   "", //  "https://twitter.com/goosedefi",
-    // },
+    {
+        label: "Twitter",
+        icon: "TwitterIcon",
+        href: "", //  "https://twitter.com/goosedefi",
+    },
     {
         label: "Reddit",
         icon: "RedditIcon",
@@ -2427,7 +2379,7 @@ var LinkLabel = styled.div(templateObject_2$a || (templateObject_2$a = __makeTem
     var isPushed = _a.isPushed, theme = _a.theme;
     return (isPushed ? theme.colors.textSubtle : "transparent");
 });
-var MenuEntry = styled.div(templateObject_3$6 || (templateObject_3$6 = __makeTemplateObject(["\n  cursor: pointer;\n  display: flex;\n  align-items: center;\n  height: ", "px;\n  padding: ", ";\n  font-size: ", ";\n  background: ", ";\n  color: ", ";\n  box-shadow: ", ";\n\n  a {\n    display: flex;\n    align-items: center;\n    width: 100%;\n    height: 100%;\n  }\n\n  svg {\n    fill: ", ";\n  }\n\n  &:hover {\n    background: ", ";\n  }\n\n\n\n\n    -webkit-transform: perspective(1px) translateZ(0);\n    transform: perspective(1px) translateZ(0);\n    box-shadow: 0 0 1px rgba(0, 0, 0, 0);\n    position: relative;\n    overflow: hidden;\n  \n  &:before {\n    content: \"\";\n    position: absolute;\n    z-index: -1;\n    left: 0;\n    right: 100%;\n    bottom: 0;\n    background: linear-gradient(to right, #8a2387, #e94057, #f27121);\n    height: 3.5px;\n    -webkit-transition-property: right;\n    transition-property: right;\n    -webkit-transition-duration: 0.3s;\n    transition-duration: 0.3s;\n    -webkit-transition-timing-function: ease-out;\n    transition-timing-function: ease-out;\n  }\n  &:hover:before, &:focus:before, &:active:before {\n    right: 0;\n  }\n\n\n\n\n  \n    -webkit-transform: perspective(1px) translateZ(0);\n    transform: perspective(1px) translateZ(0);\n    box-shadow: 0 0 1px rgba(0, 0, 0, 0);\n    -webkit-transition-duration: 0.3s;\n    transition-duration: 0.3s;\n    -webkit-transition-property: transform;\n    transition-property: transform;\n  \n  &:hover, &:focus, &:active {\n    -webkit-transform: translateX(8px);\n    transform: translateX(8px);\n  }\n\n\n\n\n\n\n  // Safari fix\n  flex-shrink: 0;\n\n  &.rainbow {\n    -webkit-background-clip: text;\n    animation: ", " 3s ease-in-out infinite;\n    background: ", ";\n    background-size: 200% 100%;\n    font-weight: bold;\n  }\n"], ["\n  cursor: pointer;\n  display: flex;\n  align-items: center;\n  height: ", "px;\n  padding: ", ";\n  font-size: ", ";\n  background: ", ";\n  color: ", ";\n  box-shadow: ", ";\n\n  a {\n    display: flex;\n    align-items: center;\n    width: 100%;\n    height: 100%;\n  }\n\n  svg {\n    fill: ", ";\n  }\n\n  &:hover {\n    background: ", ";\n  }\n\n\n\n\n    -webkit-transform: perspective(1px) translateZ(0);\n    transform: perspective(1px) translateZ(0);\n    box-shadow: 0 0 1px rgba(0, 0, 0, 0);\n    position: relative;\n    overflow: hidden;\n  \n  &:before {\n    content: \"\";\n    position: absolute;\n    z-index: -1;\n    left: 0;\n    right: 100%;\n    bottom: 0;\n    background: linear-gradient(to right, #8a2387, #e94057, #f27121);\n    height: 3.5px;\n    -webkit-transition-property: right;\n    transition-property: right;\n    -webkit-transition-duration: 0.3s;\n    transition-duration: 0.3s;\n    -webkit-transition-timing-function: ease-out;\n    transition-timing-function: ease-out;\n  }\n  &:hover:before, &:focus:before, &:active:before {\n    right: 0;\n  }\n\n\n\n\n  \n    -webkit-transform: perspective(1px) translateZ(0);\n    transform: perspective(1px) translateZ(0);\n    box-shadow: 0 0 1px rgba(0, 0, 0, 0);\n    -webkit-transition-duration: 0.3s;\n    transition-duration: 0.3s;\n    -webkit-transition-property: transform;\n    transition-property: transform;\n  \n  &:hover, &:focus, &:active {\n    -webkit-transform: translateX(8px);\n    transform: translateX(8px);\n  }\n\n\n\n\n\n\n  // Safari fix\n  flex-shrink: 0;\n\n  &.rainbow {\n    -webkit-background-clip: text;\n    animation: ", " 3s ease-in-out infinite;\n    background: ", ";\n    background-size: 200% 100%;\n    font-weight: bold;\n  }\n"])), MENU_ENTRY_HEIGHT, function (_a) {
+var MenuEntry = styled.div(templateObject_3$6 || (templateObject_3$6 = __makeTemplateObject(["\n  cursor: pointer;\n  display: flex;\n  align-items: center;\n  height: ", "px;\n  padding: ", ";\n  font-size: ", ";\n  background: ", ";\n  color: ", ";\n  box-shadow: ", ";\n\n  a {\n    display: flex;\n    align-items: center;\n    width: 100%;\n    height: 100%;\n  }\n\n  svg {\n    fill: ", ";\n  }\n\n  &:hover {\n    background: ", ";\n  }\n\n\n\n\n    -webkit-transform: perspective(1px) translateZ(0);\n    transform: perspective(1px) translateZ(0);\n    box-shadow: 0 0 1px rgba(0, 0, 0, 0);\n    position: relative;\n    overflow: hidden;\n  \n  &:before {\n    content: \"\";\n    position: absolute;\n    z-index: -1;\n    left: 0;\n    right: 100%;\n    bottom: 0;\n    background:  linear-gradient(to right, #fdfc47, #24fe41);\n    height: 3.5px;\n    -webkit-transition-property: right;\n    transition-property: right;\n    -webkit-transition-duration: 0.3s;\n    transition-duration: 0.3s;\n    -webkit-transition-timing-function: ease-out;\n    transition-timing-function: ease-out;\n  }\n  &:hover:before, &:focus:before, &:active:before {\n    right: 0;\n  }\n\n\n\n\n  \n    -webkit-transform: perspective(1px) translateZ(0);\n    transform: perspective(1px) translateZ(0);\n    box-shadow: 0 0 1px rgba(0, 0, 0, 0);\n    -webkit-transition-duration: 0.3s;\n    transition-duration: 0.3s;\n    -webkit-transition-property: transform;\n    transition-property: transform;\n  \n  &:hover, &:focus, &:active {\n    -webkit-transform: translateX(8px);\n    transform: translateX(8px);\n  }\n\n\n\n\n\n\n  // Safari fix\n  flex-shrink: 0;\n\n  &.rainbow {\n    -webkit-background-clip: text;\n    animation: ", " 3s ease-in-out infinite;\n    background: ", ";\n    background-size: 200% 100%;\n    font-weight: bold;\n  }\n"], ["\n  cursor: pointer;\n  display: flex;\n  align-items: center;\n  height: ", "px;\n  padding: ", ";\n  font-size: ", ";\n  background: ", ";\n  color: ", ";\n  box-shadow: ", ";\n\n  a {\n    display: flex;\n    align-items: center;\n    width: 100%;\n    height: 100%;\n  }\n\n  svg {\n    fill: ", ";\n  }\n\n  &:hover {\n    background: ", ";\n  }\n\n\n\n\n    -webkit-transform: perspective(1px) translateZ(0);\n    transform: perspective(1px) translateZ(0);\n    box-shadow: 0 0 1px rgba(0, 0, 0, 0);\n    position: relative;\n    overflow: hidden;\n  \n  &:before {\n    content: \"\";\n    position: absolute;\n    z-index: -1;\n    left: 0;\n    right: 100%;\n    bottom: 0;\n    background:  linear-gradient(to right, #fdfc47, #24fe41);\n    height: 3.5px;\n    -webkit-transition-property: right;\n    transition-property: right;\n    -webkit-transition-duration: 0.3s;\n    transition-duration: 0.3s;\n    -webkit-transition-timing-function: ease-out;\n    transition-timing-function: ease-out;\n  }\n  &:hover:before, &:focus:before, &:active:before {\n    right: 0;\n  }\n\n\n\n\n  \n    -webkit-transform: perspective(1px) translateZ(0);\n    transform: perspective(1px) translateZ(0);\n    box-shadow: 0 0 1px rgba(0, 0, 0, 0);\n    -webkit-transition-duration: 0.3s;\n    transition-duration: 0.3s;\n    -webkit-transition-property: transform;\n    transition-property: transform;\n  \n  &:hover, &:focus, &:active {\n    -webkit-transform: translateX(8px);\n    transform: translateX(8px);\n  }\n\n\n\n\n\n\n  // Safari fix\n  flex-shrink: 0;\n\n  &.rainbow {\n    -webkit-background-clip: text;\n    animation: ", " 3s ease-in-out infinite;\n    background: ", ";\n    background-size: 200% 100%;\n    font-weight: bold;\n  }\n"])), MENU_ENTRY_HEIGHT, function (_a) {
     var secondary = _a.secondary;
     return (secondary ? "0 32px" : "0 16px");
 }, function (_a) {
@@ -2565,7 +2517,7 @@ var PanelFooter = function (_a) {
 };
 var templateObject_1$C, templateObject_2$c, templateObject_3$7, templateObject_4$2;
 
-var StyledPanel = styled.div(templateObject_1$D || (templateObject_1$D = __makeTemplateObject(["\n  position: fixed;\n  padding-top: ", ";\n  top: 0;\n  left: 0;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  flex-shrink: 0;\n  background: ", ";\n  width: ", ";\n  height: 100vh;\n  transition: padding-top 0.2s, width 0.2s;\n  border-right: ", ";\n  z-index: 11;\n  overflow: ", ";\n  transform: translate3d(0, 0, 0);\n\n  ", " {\n    border-right: 2px solid rgba(133, 133, 133, 0.1);\n    width: ", ";\n  }\n"], ["\n  position: fixed;\n  padding-top: ", ";\n  top: 0;\n  left: 0;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  flex-shrink: 0;\n  background: ", ";\n  width: ", ";\n  height: 100vh;\n  transition: padding-top 0.2s, width 0.2s;\n  border-right: ", ";\n  z-index: 11;\n  overflow: ", ";\n  transform: translate3d(0, 0, 0);\n\n  ", " {\n    border-right: 2px solid rgba(133, 133, 133, 0.1);\n    width: ", ";\n  }\n"])), function (_a) {
+var StyledPanel = styled.div(templateObject_1$D || (templateObject_1$D = __makeTemplateObject(["\n  position: fixed;\n  padding-top: ", ";\n  top: 0;\n  left: 0;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  flex-shrink: 0;\n  background: ", ";\n  width: ", ";\n  height: 100vh;\n  transition: padding-top 0.2s, width 0.2s;\n  border-right: ", ";\n  z-index: 11;\n  overflow: ", ";\n  transform: translate3d(0, 0, 0);\n  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;\n\n  ", " {\n    border-right: 2px solid rgba(133, 133, 133, 0.1);\n    width: ", ";\n  }\n"], ["\n  position: fixed;\n  padding-top: ", ";\n  top: 0;\n  left: 0;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  flex-shrink: 0;\n  background: ", ";\n  width: ", ";\n  height: 100vh;\n  transition: padding-top 0.2s, width 0.2s;\n  border-right: ", ";\n  z-index: 11;\n  overflow: ", ";\n  transform: translate3d(0, 0, 0);\n  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;\n\n  ", " {\n    border-right: 2px solid rgba(133, 133, 133, 0.1);\n    width: ", ";\n  }\n"])), function (_a) {
     var showMenu = _a.showMenu;
     return (showMenu ? "80px" : 0);
 }, function (_a) {
@@ -2991,17 +2943,17 @@ var templateObject_1$K;
 
 var baseColors = {
     failure: "#ED4B9E",
-    primary: "linear-gradient(to right, #f12711, #f5af19)",
+    primary: "#FFF",
     primaryBright: "#00acff",
     primaryDark: "#32CD32",
-    secondary: "#9A6AFF",
+    secondary: "#e22829  ",
     success: "#31D0AA",
     warning: "#FFB237",
 };
 var brandColors = {
     binance: "#F0B90B",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { title: "#FFFFFF", navBar: "#27262c", sideBar: "#27262c", secondary: "#9A6AFF", background: "/images/dayback.png", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#0098A1", tertiary: "#353547", text: "#EAE2FC", textDisabled: "#666171", textSubtle: "#c9c4d4", borderColor: "#524B63", card: "#27262c", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { title: "#FFFFFF", navBar: "#e22829  ", sideBar: "#01992a  ", secondary: "#e22829  ", background: "#01992a  ", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#0098A1", tertiary: "#006517  ", text: "#FFF", textDisabled: "#666171", textSubtle: "#FFF", borderColor: "#524B63", card: "#028fd5 ", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
     } });
 var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { title: "#FFFFFF", navBar: "#27262c", sideBar: "#27262c", secondary: "#9A6AFF", background: "/images/dayback.png", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#0098A1", tertiary: "#353547", text: "#EAE2FC", textDisabled: "#666171", textSubtle: "#c9c4d4", borderColor: "#524B63", card: "#27262c", gradients: {
@@ -3024,9 +2976,9 @@ var light$1 = (_a$2 = {},
         backgroundHover: lightColors.primaryBright,
         border: 0,
         borderColorHover: "currentColor",
-        boxShadow: "inset 0px -1px 0px rgba(14, 14, 44, 0.4)",
+        boxShadow: "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
         boxShadowActive: "inset 0px -1px 0px rgba(14, 14, 44, 0.4)",
-        color: "#FFFFFF",
+        color: "#e42827",
     },
     _a$2[SECONDARY] = {
         background: "transparent",
@@ -3034,7 +2986,7 @@ var light$1 = (_a$2 = {},
         backgroundHover: "transparent",
         border: "2px solid " + lightColors.primary,
         borderColorHover: lightColors.primaryBright,
-        boxShadow: "none",
+        boxShadow: "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
         boxShadowActive: "none",
         color: lightColors.secondary,
     },
@@ -3044,37 +2996,37 @@ var light$1 = (_a$2 = {},
         backgroundHover: lightColors.tertiary,
         border: 0,
         borderColorHover: "currentColor",
-        boxShadow: "none",
+        boxShadow: "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
         boxShadowActive: "none",
         color: lightColors.secondary,
     },
     _a$2[TEXT] = {
-        background: "transparent",
+        background: "#ffce31 ",
         backgroundActive: "transparent",
-        backgroundHover: lightColors.tertiary,
+        backgroundHover: "#ffce31",
         border: 0,
         borderColorHover: "currentColor",
-        boxShadow: "none",
+        boxShadow: "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
         boxShadowActive: "none",
-        color: lightColors.secondary,
+        color: "#015914",
     },
     _a$2[DANGER] = {
-        background: lightColors.failure,
-        backgroundActive: "#D43285",
-        backgroundHover: "#FF65B8",
+        background: "#FFF",
+        backgroundActive: "#e42827",
+        backgroundHover: "#e42827",
         border: 0,
         borderColorHover: "currentColor",
-        boxShadow: "none",
+        boxShadow: "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
         boxShadowActive: "none",
-        color: "#FFFFFF",
+        color: "#015914",
     },
     _a$2[SUBTLE] = {
-        background: lightColors.textSubtle,
+        background: "#009a2a",
         backgroundActive: lightColors.textSubtle + "D9",
         backgroundHover: lightColors.textSubtle + "B3",
-        border: 0,
+        border: "2px solid #FFF",
         borderColorHover: "currentColor",
-        boxShadow: "none",
+        boxShadow: "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
         boxShadowActive: "none",
         color: "#FFFFFF",
     },
@@ -3084,7 +3036,7 @@ var light$1 = (_a$2 = {},
         backgroundHover: lightColors.success + "B3",
         border: 0,
         borderColorHover: "currentColor",
-        boxShadow: "none",
+        boxShadow: "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
         boxShadowActive: "none",
         color: "#FFFFFF",
     },

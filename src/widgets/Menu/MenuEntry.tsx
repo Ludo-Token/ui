@@ -66,7 +66,7 @@ const MenuEntry = styled.div<Props>`
     left: 0;
     right: 100%;
     bottom: 0;
-    background: linear-gradient(to right, #8a2387, #e94057, #f27121);
+    background:  linear-gradient(to right, #fdfc47, #24fe41);
     height: 3.5px;
     -webkit-transition-property: right;
     transition-property: right;

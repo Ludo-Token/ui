@@ -16,6 +16,7 @@ interface Props {
 const StyledLink = styled(Link)`
   display: flex;
   align-items: center;
+  margin-left: 2rem;
   .mobile-icon {
     width: 52px;
     ${({ theme }) => theme.mediaQueries.nav} {
@@ -76,9 +77,9 @@ const StyledLink = styled(Link)`
         -webkit-transition-property: box-shadow;
         transition-property: box-shadow;
     
-      &:hover, &:focus, &:active {
-        box-shadow: 0 0 2rem ${({ theme }) => theme.colors.primary};
-      }
+      // &:hover, &:focus, &:active {
+      //   box-shadow: 0 0 2rem ${({ theme }) => theme.colors.primary};
+      // }
 
     }
   }
@@ -95,7 +96,7 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
 
   return (
     <Flex>
-      <MenuButton aria-label="Toggle menu" onClick={togglePush} mr="24px">
+      <MenuButton aria-label="Toggle menu" onClick={togglePush} >
         {isPushed ? (
           <HamburgerCloseIcon width="24px" color="textSubtle" />
         ) : (

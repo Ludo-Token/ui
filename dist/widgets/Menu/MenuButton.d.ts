@@ -1,3 +1,2 @@
-/// <reference types="react" />
-declare const MenuButton: import("styled-components").StyledComponent<import("react").FC<import("../..").ButtonProps>, import("styled-components").DefaultTheme, {}, never>;
+declare const MenuButton: import("styled-components").StyledComponent<"div", import("styled-components").DefaultTheme, {}, never>;
 export default MenuButton;

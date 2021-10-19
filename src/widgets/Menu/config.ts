@@ -114,11 +114,11 @@ export const links = [
 ];
 
 export const socials = [
-  // {
-  //   label: "Twitter",
-  //   icon: "TwitterIcon",
-  //   href:   "", //  "https://twitter.com/goosedefi",
-  // },
+  {
+    label: "Twitter",
+    icon: "TwitterIcon",
+    href:   "", //  "https://twitter.com/goosedefi",
+  },
   {
     label: "Reddit",
     icon: "RedditIcon",

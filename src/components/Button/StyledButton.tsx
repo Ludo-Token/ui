@@ -49,24 +49,24 @@ const StyledButton = styled.button<ButtonProps>`
   align-items: center;
   background: ${getButtonVariantProp("background")};
   border: ${getButtonVariantProp("border")};
-  border-radius: ${({ size }) => (size === "sm" ? "16px" : "25px")};
-  box-shadow: ${getButtonVariantProp("boxShadow")};
+  border-radius: ${({ size }) => (size === "sm" ? "20px" : "25px")};
   color: ${getButtonVariantProp("color")};
   cursor: pointer;
   display: inline-flex;
   font-family: inherit;
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 28px;
+  font-weight: 500;
   /* max-content instead of auto for Safari fix */
   width: ${({ fullWidth }) => (fullWidth ? "100%" : "max-content")};
-  height: ${({ size }) => (size === "sm" ? "32px" : "52px")};
+  height: ${({ size }) => (size === "sm" ? "42px" : "52px")};
   line-height: 1;
   letter-spacing: 0.03em;
   justify-content: center;
   outline: 0;
-  padding: ${({ size }) => (size === "sm" ? "0 16px" : "0 36px")};
+  padding: ${({ size }) => (size === "sm" ? "0 16px" : "0 22px")};
   transition: background-color 0.2s;
   opacity: ${({ isLoading }) => (isLoading ? 0.5 : 1)};
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 
   &:hover:not(:disabled):not(.button--disabled):not(:active) {
     background: ${getButtonVariantProp("backgroundHover")};
