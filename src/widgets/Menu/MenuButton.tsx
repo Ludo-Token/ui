@@ -5,11 +5,11 @@ const MenuButton = styled.div`
   color: ${({ theme }) => theme.colors.text};
   padding: 0 8px;
   border-radius: 8px;
-  margin-top: 0.65rem;
+  margin-top: 2.2rem;
   cursor: pointer;
   font-size: 2rem;
   ${({ theme }) => theme.mediaQueries.sm}{
-    margin-top: 1.6rem;
+    margin-top: 2.2rem;
   }
 `;
 MenuButton.defaultProps = {

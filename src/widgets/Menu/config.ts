@@ -117,17 +117,17 @@ export const socials = [
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href:   "", //  "https://twitter.com/goosedefi",
+    href: "https://twitter.com/tokenludo/status/1451905562988490757?s=21", //  "https://twitter.com/goosedefi",
   },
   {
     label: "Reddit",
     icon: "RedditIcon",
-    href:   "Reddit.com/r/LudoToken/", //  "https://www.reddit.com/r/GooseFinanceofficial",
+    href: "https://www.reddit.com/r/LudoToken/", //  "https://www.reddit.com/r/GooseFinanceofficial",
   },
   {
     label: "Telegram",
     icon: "TelegramIcon",
-    href:   "Twitter.com/TokenLUDO/", //  "https://www.reddit.com/r/GooseFinanceofficial",
+    href:  "https://t.me/joinchat/tamjMCUDbE5iOTNk", //  "https://www.reddit.com/r/GooseFinanceofficial",
   },
   // {
   //   label: "Telegram",

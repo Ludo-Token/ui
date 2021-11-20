@@ -26,6 +26,7 @@ const UserBlock: React.FC<Props> = ({ account, login, logout }) => {
         </Button>
       ) : (
         <Button
+          style={{padding:"0 1rem",fontSize:"1.2rem"}}
           size="sm"
           onClick={() => {
             onPresentConnectModal();

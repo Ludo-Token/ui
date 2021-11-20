@@ -35,14 +35,14 @@ export const light: ButtonTheme = {
     color: lightColors.secondary,
   },
   [TEXT]: {
-    background: "#ffce31 ",
+    background: "#00ACFF ",
     backgroundActive: "transparent",
-    backgroundHover:  "#ffce31", //  lightColors.tertiary,
+    backgroundHover:  "#00ACFF", //  lightColors.tertiary,
     border: 0,
     borderColorHover: "currentColor",
     boxShadow: "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
     boxShadowActive: "none",
-    color: "#015914",
+    color: "#FFFFFF",
   },
   [DANGER]: {
     background: "#FFF",
